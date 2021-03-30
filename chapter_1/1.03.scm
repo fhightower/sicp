@@ -26,3 +26,11 @@
 )
 
 ; Initially, I defined `f` as: (define (f a b c) ... ), but decided to add the `func` argument to make f more generic
+
+; One can also define an n-largest function that would simplify `f`:
+
+(define (n-largest n . args)
+    todo: implement
+)
+
+(= (n-largest 1 2 3) (2 3))
